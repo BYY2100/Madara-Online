@@ -1,0 +1,160 @@
+body {
+	scroll-behavior: smooth;
+	margin: 0;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 0;
+}
+h1 {
+	margin-top: 0;
+}
+hr {
+	border-style: none;
+	border-top-style: dotted;
+	border-color: #e1eeee;
+	border-width: 5px;
+	width: 10%;
+	padding: 15p;
+}
+.card {
+	background-color: #eaf6f6;
+	padding-top: 100px;
+	position: relative;
+}
+#intro {
+	font-family: 'Sacramento', cursive;
+	font-weight: bold;
+	font-size: 5.625em;
+	margin-bottom: -20px;
+	color: #66bfbf;
+}
+
+#disc {
+	font-family: sans-serif;
+	color: #66bfbf;
+	margin-top: -15px;
+}
+.mount {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	position: relative;
+	top: 4px;
+}
+.cl1 {
+	position: absolute;
+	right: 400px;
+	top: 50px;
+}
+.cl2 {
+	position: absolute;
+	bottom: 300px;
+	left: 400px;
+}
+
+.middle-container {
+	padding-top: 10px;
+	display: inline-block;
+	width: 60%;
+}
+
+.mada {
+	height: 150px;
+	width: 150px;
+	border: 1px solid;
+	border-radius: 50%;
+}
+.katon,
+.sharingan {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.skill-row {
+	position: relative;
+	display: inline-block;
+	/* margin-left: 180px; */
+	text-align: left;
+	width: 80%;
+	margin-bottom: 15px;
+}
+.skill-row h3,
+.skill-row p {
+	width: 80%;
+}
+.katon {
+	float: left;
+	margin-right: 30px;
+}
+.sharingan {
+	float: right;
+	margin-left: 30px;
+}
+.goka {
+	font-weight: bold;
+	color: crimson;
+}
+p {
+	font-size: 14px;
+	font-weight: bold;
+	color: #40514e;
+}
+.contact-me {
+	display: inline-block;
+	width: 50%;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: blueviolet;
+}
+
+.but {
+	padding: 10px 15px;
+	background: none;
+	color: #66bfbf;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border: 2px solid #66bfbf;
+	transition: 0.5s;
+	cursor: pointer;
+	margin-bottom: 50px;
+}
+.but:hover {
+	background: #66bfbf;
+	color: white;
+	border: 2px solid white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.bottom-container {
+	background-color: #66bfbf;
+	margin-top: 0;
+	padding-top: 50px;
+}
+.bottom-container a {
+	color: #11999e;
+	padding-right: 15px;
+	transition: 0.5s;
+}
+.bottom-container a:hover {
+	transition: 0.5s;
+	color: blueviolet;
+}
+.bottom-container p {
+	color: #eaf6f6;
+	margin: 0;
+	font-weight: normal;
+	padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #66bfbf;
+}
